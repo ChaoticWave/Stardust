@@ -1,6 +1,4 @@
-<?php
-
-namespace ChaoticWave\Stardust\Http\Middleware;
+<?php namespace ChaoticWave\Stardust\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as BaseVerifier;
 
@@ -11,7 +9,5 @@ class VerifyCsrfToken extends BaseVerifier
      *
      * @var array
      */
-    protected $except = [
-        //
-    ];
+    protected $except = [];
 }

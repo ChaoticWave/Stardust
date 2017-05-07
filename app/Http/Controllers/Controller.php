@@ -1,6 +1,4 @@
-<?php
-
-namespace ChaoticWave\Stardust\Http\Controllers;
+<?php namespace ChaoticWave\Stardust\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

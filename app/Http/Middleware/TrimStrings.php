@@ -1,6 +1,4 @@
-<?php
-
-namespace ChaoticWave\Stardust\Http\Middleware;
+<?php namespace ChaoticWave\Stardust\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\TrimStrings as BaseTrimmer;
 

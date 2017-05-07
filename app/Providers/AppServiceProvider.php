@@ -1,6 +1,4 @@
-<?php
-
-namespace ChaoticWave\Stardust\Providers;
+<?php namespace ChaoticWave\Stardust\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

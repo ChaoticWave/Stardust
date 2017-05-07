@@ -11,9 +11,7 @@
 |
 */
 
-$app = new Illuminate\Foundation\Application(
-    realpath(__DIR__.'/../')
-);
+$app = new Illuminate\Foundation\Application(realpath(__DIR__ . '/../'));
 
 /*
 |--------------------------------------------------------------------------
@@ -26,20 +24,14 @@ $app = new Illuminate\Foundation\Application(
 |
 */
 
-$app->singleton(
-    Illuminate\Contracts\Http\Kernel::class,
-    ChaoticWave\Stardust\Http\Kernel::class
-);
+$app->singleton(Illuminate\Contracts\Http\Kernel::class,
+    ChaoticWave\Stardust\Http\Kernel::class);
 
-$app->singleton(
-    Illuminate\Contracts\Console\Kernel::class,
-    ChaoticWave\Stardust\Console\Kernel::class
-);
+$app->singleton(Illuminate\Contracts\Console\Kernel::class,
+    ChaoticWave\Stardust\Console\Kernel::class);
 
-$app->singleton(
-    Illuminate\Contracts\Debug\ExceptionHandler::class,
-    ChaoticWave\Stardust\Exceptions\Handler::class
-);
+$app->singleton(Illuminate\Contracts\Debug\ExceptionHandler::class,
+    ChaoticWave\Stardust\Exceptions\Handler::class);
 
 /*
 |--------------------------------------------------------------------------

@@ -1,6 +1,4 @@
-<?php
-
-namespace ChaoticWave\Stardust\Http\Controllers\Auth;
+<?php namespace ChaoticWave\Stardust\Http\Controllers\Auth;
 
 use ChaoticWave\Stardust\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
